@@ -15,4 +15,4 @@
 <p>相比<a target="_blank" href="https://zfe.space/2020/08/16/2020-08-16-1/">1.0版本</a>，加快了访问速度并优化了加载效果。</p>
 <p>相比<a target="_blank" href="https://zfe.space/2020/08/31/2020-08-31-1/">2.0版本</a>，通过vue替换jquery的dom操作提升了性能。</p>
 <p>解决了date class 会导致相关文章的时间样式出错的BUG。</p>
-<p>教程地址：<a target="_blank" href="https://zfe.space/2020/08/16/2020-10-16-1/">3.0版本教程</a>。</p>
+<p>教程地址：<a target="_blank" href="https://zfe.space/2020/10/16/2020-10-16-1/">3.0版本教程</a>。</p>
