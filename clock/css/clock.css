@@ -29,7 +29,7 @@
     }
     @font-face {
       font-family: 'UnidreamLED'; /*a name to be used later*/
-      src: url('https://zfe.space/fonts/UnidreamLED.ttf'); /*URL to font*/
+      src: url('/clock/fonts/UnidreamLED.ttf'); /*URL to font*/
     }
 
     .clockdate {width:30%;}
