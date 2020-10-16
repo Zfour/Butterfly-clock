@@ -1,0 +1,22 @@
+.card-widget.card-clock
+ .card-glass
+  .card-background
+   .card-content
+    #clock
+      img(v-if='!clockshow', src='/images/loading.gif', style='height:120px;width:100%')
+      table.clock(v-if='clockshow')
+        tbody
+          tr
+            td.clockdate {{date}}
+            td.weatherimg
+              img#weatherimg(:src='weatherimg')
+            td.temperature {{temperature+ "*C"}}
+            td.humidityimg
+              img#humidityimg(:src='humidityimg')
+            td.humidity {{humidity + "%"}}
+          tr.time
+            td(colspan='5') {{time}}
+          tr
+            td.usaqi(colspan='1') {{usaqi + ' ' + 'US' + ' ' +'AQI' }}
+            td.city(colspan='3') {{city}}
+            td.daylight(colspan='1') {{daylight}}

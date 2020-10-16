@@ -1,0 +1,57 @@
+#clock .clockdate {
+      font-family: 'UnidreamLED';
+      font-size: 14px;
+      font-weight:normal;
+      color: #000000;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      line-height: 1;
+    }
+    #clock .time {
+
+
+      font-family: 'UnidreamLED';
+      font-size: 38px;
+      font-weight:normal;
+      color: #000000;
+      margin-block-start: 0em;
+      margin-block-end: -0.2em;
+      line-height: 1.5;
+
+    }
+    .card-background {
+      height:153px;
+      margin:15px;
+      border-radius: 8px;
+      background-color: rgb(236, 236, 236);
+      box-shadow: inset 3px 3px 18px 0px rgba(50,50,50, 0.4);
+      z-index: 2;
+    }
+    @font-face {
+      font-family: 'UnidreamLED'; /*a name to be used later*/
+      src: url('https://zfe.space/fonts/UnidreamLED.ttf'); /*URL to font*/
+    }
+
+    .clockdate {width:30%;}
+    .time{text-align: center}
+    .daylight{text-align: right;width:12%;font-family: 'UnidreamLED'; color:black; }
+    #weatherimg {
+      -webkit-filter: brightness(0%)!important;
+      filter: brightness(0%)!important;
+      width: 14px!important;
+      height: 14px!important;
+    }
+    #humidityimg {
+      -webkit-filter: brightness(0%)!important;
+      filter: brightness(0%)!important;
+      width: 14px!important;
+      height: 14px!important;
+    }
+    .humidityimg  {text-align: right;width:10%;font-family: 'UnidreamLED';padding-left:10px; padding-right:1px;color: #000000;}
+    .weatherimg  {width:10%;font-family: 'UnidreamLED';padding-left:10px; padding-right:1px;color: #000000;}
+    .temperature  {width:10%;font-family: 'UnidreamLED'; color: #000000;padding-left: 5px;padding-right:5px; }
+    .humidity  {text-align: right;width:10%;font-family: 'UnidreamLED';color: #000000;padding-left: 5px;padding-right:5px;  }
+    .usaqi  {height:30px;width:10%;font-family: 'UnidreamLED';color: #000000;}
+    .city {width:10%;font-family: 'UnidreamLED';padding-left:20px; padding-right:1px;color: #000000;}
+    .clock th{padding: 0;border: 0;}
+	.clock td{padding: 0;border: 0;}
