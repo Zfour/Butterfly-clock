@@ -1,5 +1,5 @@
 # Butterfly-clock
-基于Butterfly的时钟插件
+基于Butterfly的时钟插件3.0
 <h3>2.0模拟时钟小部件主要包含：</h3>
 <li>日期（年、月、日、星期）</li>
 <li>天气（天气图标、温度）</li>
@@ -15,4 +15,4 @@
 <p>相比<a target="_blank" href="https://zfe.space/2020/08/16/2020-08-16-1/">1.0版本</a>，加快了访问速度并优化了加载效果。</p>
 <p>相比<a target="_blank" href="https://zfe.space/2020/08/31/2020-08-31-1/">2.0版本</a>，通过vue替换jquery的dom操作提升了性能。</p>
 <p>解决了date class 会导致相关文章的时间样式出错的BUG。</p>
-<p>教程地址：<a target="_blank" href="https://zfe.space/2020/08/16/2020-10-16-1/">3.0版本</a>。</p>
+<p>教程地址：<a target="_blank" href="https://zfe.space/2020/08/16/2020-10-16-1/">3.0版本教程</a>。</p>
