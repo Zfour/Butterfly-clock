@@ -21,7 +21,7 @@
     }
     .card-background {
       height:153px;
-      margin:15px;
+      margin:15px; 
       border-radius: 8px;
       background-color: rgb(236, 236, 236);
       box-shadow: inset 3px 3px 18px 0px rgba(50,50,50, 0.4);
