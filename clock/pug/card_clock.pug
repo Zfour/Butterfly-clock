@@ -8,9 +8,9 @@
         tbody
           tr
             td.clockdate {{date}}
-            td.weatherimg
+            td.weatherimg(align="center" valign="middle")
               img#weatherimg(:src='weatherimg')
-            td.temperature {{temperature+ "*C"}}
+            td.temperature(align="center" valign="middle") {{temperature+ "*C"}}
             td.humidityimg
               img#humidityimg(:src='humidityimg')
             td.humidity {{humidity + "%"}}
