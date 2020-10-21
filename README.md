@@ -1,5 +1,10 @@
 # Butterfly-clock
-基于Butterfly的时钟插件3.0
+
+基于Butterfly的时钟插件3.0。
+使用前请申请AirVisual api key。
+https://www.iqair.com/auth/login
+
+
 <h3>3.0模拟时钟小部件主要包含：</h3>
 <li>日期（年、月、日、星期）</li>
 <li>天气（天气图标、温度）</li>
