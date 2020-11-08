@@ -1,5 +1,5 @@
     
-	
+	const mykey = {weather:'888888888888888888888'};
 	let locationurl = 'https://ip.seeip.org/geoip';
 	let cityname ='';
 	let weatherurl ='';
@@ -29,7 +29,7 @@
 	cityname = data.country;	
 	};
 	userip = data.ip;
-	weatherurl ='https://api.openweathermap.org/data/2.5/weather/?q=' + cityname + '&units=metric&appid=' + newskey.weather;
+	weatherurl ='https://api.openweathermap.org/data/2.5/weather/?q=' + cityname + '&units=metric&appid=' + mykey.weather;
 	getweatherdata();
 	
 	
