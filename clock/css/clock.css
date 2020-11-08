@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('/weathericon/iconfont.eot');
+  src: url('/weathericon/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('/weathericon/iconfont.woff2') format('woff2'),
+      url('/weathericon/iconfont.woff') format('woff'),
+      url('/weathericon/iconfont.ttf') format('truetype'),
+      url('/weathericon/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #clock .clockdate {
       font-family: 'UnidreamLED';
       font-size: 14px;
@@ -52,6 +69,6 @@
     .temperature  {width:10%;font-family: 'UnidreamLED'; color: #000000;padding-left: 5px;padding-right:5px; }
     .humidity  {text-align: right;width:10%;font-family: 'UnidreamLED';color: #000000;padding-left: 5px;padding-right:5px;  }
     .usaqi  {height:30px;width:10%;font-family: 'UnidreamLED';color: #000000;}
-    .city {width:10%;font-family: 'UnidreamLED';padding-left:20px; padding-right:1px;color: #000000;}
+    .city {text-align: center;width:10%;font-family: 'UnidreamLED';padding-left:20px; padding-right:1px;color: #000000;}
     .clock th{padding: 0;border: 0;}
 	.clock td{padding: 0;border: 0;}

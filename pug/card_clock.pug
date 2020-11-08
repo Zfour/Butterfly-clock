@@ -3,20 +3,21 @@
   .card-background
    .card-content
     #clock
-      img(v-if='!clockshow', src='/images/loading.gif', style='height:120px;width:100%')
+      img(v-if='clockshow == "false"', src='/clock/images/weather/loading.gif', style='height:120px;width:100%')
       table.clock(v-if='clockshow')
         tbody
           tr
             td.clockdate {{date}}
             td.weatherimg(align="center" valign="middle")
               img#weatherimg(:src='weatherimg')
-            td.temperature(align="center" valign="middle") {{temperature+ "*C"}}
+            td.temperature(align="center" valign="middle") {{temperature}}
             td.humidityimg
               img#humidityimg(:src='humidityimg')
-            td.humidity {{humidity + "%"}}
+            td.humidity {{humidity}}
           tr.time
             td(colspan='5') {{time}}
           tr
-            td.usaqi(colspan='1') {{usaqi + ' ' + 'US' + ' ' +'AQI' }}
-            td.city(colspan='3') {{city}}
-            td.daylight(colspan='1') {{daylight}}
+            td.usaqi(colspan='1') 
+             span {{ip}}
+            td.city(colspan='2') {{city}}
+            td.daylight(colspan='2') {{daylight}}
