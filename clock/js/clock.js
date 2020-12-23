@@ -1,6 +1,7 @@
     
 	const mykey = {weather:'888888888888888888888'};
-	let locationurl = 'https://ip.seeip.org/geoip';
+	//let locationurl = 'https://ip.seeip.org/geoip';
+	let locationurl = 'https://extreme-ip-lookup.com/json/';
 	let cityname ='';
 	let weatherurl ='';
 	let userip ='';
@@ -28,7 +29,8 @@
     if(typeof data.region =="undefined"){
 	cityname = data.country;	
 	};
-	userip = data.ip;
+	//userip = data.ip;
+	userip = data.query;
 	weatherurl ='https://api.openweathermap.org/data/2.5/weather/?q=' + cityname + '&units=metric&appid=' + mykey.weather;
 	getweatherdata();
 	
